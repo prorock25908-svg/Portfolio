@@ -1,0 +1,73 @@
+{
+  "bandName":"TKN",
+  "homeTown":"Kharkiv",
+  "formed":"2005",
+  "active":true,
+  "members":[
+    {
+      "id":1,
+      "name": "Vyacheslav Brovko",
+      "bandposition": "Guitar",
+      "adress":{
+       "city":"Kharkiv",
+       "street":"Zhukovsky Avenue",
+       "houseNumber":"8a",
+       "apartment":"17"
+      },
+      "contacts": {
+       "phoneNumber":"+380-68-349-9428", 
+       "email":"Vyacheslav@gmail.com",
+       "telegramName":"Repair" 
+       }
+    },
+    {
+    "id": 2,
+    "name": "Anton Kubrak",
+    "bandposition": "Drums",
+    "address": {
+      "city": "Kharkiv",
+      "street": "Ukrainska",
+      "houseNumber": "36",
+      "apartment": "5"
+    },
+    "contacts": {
+      "phoneNumber": "+380-50-111-2233",
+      "email": "ivan@gmail.com",
+      "telegramName": "Asti"
+    }
+     },
+    {
+      "id":3,
+      "name": "Andrey Bachnev",
+    "bandposition": "Bass",
+    "address": {
+      "city": "Kyiv",
+      "street": "Shevchenko Street",
+      "houseNumber": "10",
+      "apartment": "9"
+    },
+    "contacts": {
+      "phoneNumber": "+380-96-124-2026",
+      "email": "deadinside@mail.ru",
+      "telegramName": "Andre" 
+     }
+      },
+    {
+      "id":4,
+      "name": "Dmitrii Anisimov",
+    "bandposition": "2nd guitar",
+    "address": {
+      "city": "Dnepr",
+      "street": "Troitska",
+      "houseNumber": "12a",
+      "apartment": "122"
+    },
+    "contacts": {
+      "phoneNumber": "+380-67-238-1598",
+      "email": "wheatcher.2016@gmail.com",
+      "telegramName": "demian"
+     }
+    }
+   ]
+ } 
+  

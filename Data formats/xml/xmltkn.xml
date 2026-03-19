@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<bandName>TKN</bandName>
+	<homeTown>Kharkiv</homeTown>
+	<formed>2005</formed>
+	<active>true</active>
+	<members>
+		<member>
+			<id>1</id>
+			<name>Vyacheslav Brovko</name>
+			<bandposition>Guitar</bandposition>
+			<adress>
+				<city>Kharkiv</city>
+				<street>Zhukovsky Avenue</street>
+				<houseNumber>8a</houseNumber>
+				<apartament>17</apartament>
+			</adress>
+			<contact>
+				<phoneNumber>+380-68-349-9428</phoneNumber>
+				<email>Vyacheslav@gmail.com</email>
+				<telegramName>Repair</telegramName>
+			</contact>
+		</member>
+		<member>
+			<id>2</id>
+			<name>Anton Kubrak</name>
+			<bandposition>Drums</bandposition>
+			<adress>
+				<city>Kharkiv</city>
+				<street>Ukrainska</street>
+				<houseNumber>36</houseNumber>
+				<apartament>5</apartament>
+			</adress>
+			<contact>
+				<phoneNumber>+380-50-111-2233</phoneNumber>
+				<email>anton@gmail.com</email>
+				<telegramName>Asti</telegramName>
+			</contact>
+		</member>
+		<member>
+			<id>3</id>
+			<name>Andrey Bachnev</name>
+			<bandposition>Bass</bandposition>
+			<adress>
+				<city>Kyiv</city>
+				<street>Shevchenko Street</street>
+				<houseNumber>10</houseNumber>
+				<apartament>9</apartament>
+			</adress>
+			<contact>
+				<phoneNumber>+380-96-124-2026</phoneNumber>
+				<email>deadinside@mail.ru</email>
+				<telegramName>Andre</telegramName>
+			</contact>
+		</member>
+		<member>
+			<id>4</id>
+			<name>Dmitrii Anisimov</name>
+			<bandposition>2nd guitar</bandposition>
+			<adress>
+				<city>Dnepr</city>
+				<street>Troitska</street>
+				<houseNumber>12a</houseNumber>
+				<apartament>122</apartament>
+			</adress>
+			<contact>
+				<phoneNumber>+380-67-238-1598</phoneNumber>
+				<email>wheatcher.2016@gmail.com</email>
+				<telegramName>demian</telegramName>
+			</contact>
+		</member>
+	</members>
+</root>

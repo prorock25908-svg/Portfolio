@@ -1,0 +1,69 @@
+/*SELECT * FROM employees;*/
+/*SELECT employee_no,title FROM titles;*/
+/*SELECT DISTINCT city FROM employeeTerritories;*/
+/*select employee_no,last_name FROM employees ORDER BY last_name ASC;*/
+	/*SELECT first_name,last_name from employees WHERE employee_no=10070;*/
+/*SELECT employee_no,title,from_date FROM titles
+WHERE title = 'Engieneer' AND from_date='1997-07-16';*/
+/*SELECT employee_no,title FROM titles
+WHERE title="Technique Leader" OR title= "Senior Engineer";*/
+/*SELECT employee_no,city FROM employeeTerritories
+WHERE NOT city= "Kyiv";*/
+/*SELECT last_name,birth_date FROM employees
+WHERE birth_date between  '1960-01-01' and '1964-12-31';*/
+/*SELECT employee_no, title from titles
+WHERE title like "Senior%";*/
+/*SELECT employee_no,city FROM employeeTerritories 
+WHERE city LIKE "K___%";*/
+/*SELECT COUNT(gender) as Female from employees 
+WHERE gender='F';*/
+/*SELECT AVG(salary) from salaries;*/
+/*select max(birth_date) AS [youngest employee] from employees;*/
+/*UPDATE employees
+SET
+  birth_date = '1995-12-31',
+  first_name = 'Viktoria',
+  last_name = 'Tutor',
+  gender = 'F',
+  hire_date = '2000-01-01'
+WHERE employee_no = 10100;*/
+/*select COUNT(employee_no),title FROM titles 
+group by title 
+having COUNT (employee_no) > 1;*/
+SELECT employees.first_name, employees.last_name,employeeTerritories.city from employees
+join employeeTerritories
+ON employees.employee_no = employeeTerritories.employee_no;
+
+
+
+*/*SELECT employee_no,first_name,last_name,hire_date FROM employees
+ORDER BY hire_date DESC;*/
+
+
+/*SELECT first_name,last_name,birth_date FROM employees
+WHERE birth_date>='1960-01-01';*/
+
+
+/*SELECT first_name,last_name,birth_date FROM employees
+WHERE first_name LIKE "Ma%";*/
+
+
+/*SELECT employee_no,city FROM employeeTerritories
+WHERE city = 'Kyiv'	OR city= 'Dnipro' OR city='Lviv';*/
+
+
+/*SELECT COUNT(title) AS total_engineers FROM titles
+WHERE title='Engineer';*/
+
+/*SELECT city, COUNT(*) AS employee_count FROM employeeTerritories
+GROUP BY city HAVING COUNT(*)>10;*/
+
+
+/*SELECT employees.first_name,employees.last_name,titles.title FROM employees 
+JOIN titles ON employees.employee_no=titles.employee_no;*/
+
+
+
+SELECT employees.first_name,employees.last_name,salaries.salary FROM employees
+JOIN salaries ON employees.employee_no=salaries.employee_no
+WHERE salaries.salary BETWEEN '50000' AND '60000';
