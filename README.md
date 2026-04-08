@@ -8,6 +8,9 @@ Below you can find my work:
 - Certificate ( successful completed QA Manual course at GoIT)
 - Data formats (JSON, XML) 
     Contains the same information in different formats (Members of TKN band and their contacts)
+- Cyberpunk 2077 Exploratory testing
+    This project demonstrates my approach to exploratory testing in an open-world game environment
+    Created bug reports in [Jira](https://wheatcher007801.atlassian.net/jira/software/projects/C2/boards/35))
 - HTML/CSS 
     Includes CSS, and JavaScript for a registration form
 - HTTP Analysis
