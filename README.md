@@ -10,7 +10,7 @@ Below you can find my work:
     Contains the same information in different formats (Members of TKN band and their contacts)
 - Cyberpunk 2077 Exploratory testing
     1.This project demonstrates my approach to exploratory testing in an open-world game environment
-    2.Created bug reports in [Jira](https://wheatcher007801.atlassian.net/jira/software/projects/C2/boards/35)
+    2.Created bug reports in [Jira](https://wheatcher25908.atlassian.net/jira/software/projects/C2/boards/2)
 - HTML/CSS 
     Includes CSS, and JavaScript for a registration form
 - HTTP Analysis
@@ -20,6 +20,7 @@ Below you can find my work:
 - Bug Reports
     1.Filmoteka site:[View Project](https://goitstudentsworks.github.io/js_70_melvinsz/)
     2.Real bug found in POS system
+    3.Metro Exodus [Jira](https://wheatcher25908.atlassian.net/jira/software/projects/ME/boards/3)
 - SQL queries
     Searched information about employees
 - TestRail:
@@ -30,6 +31,6 @@ Below you can find my work:
 
      
 I also created bug reports using Jira:
-https://id.atlassian.com/invite/p/jira-software?id=8J2fGO2fTUCO4_iRb_VC1A
+https://wheatcher25908.atlassian.net/jira/software/projects/KAN/boards/1
 
 This repository demonstrates my skills in web and game testing, including test documentation, bug reporting, and API testing.
